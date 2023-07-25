@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h3>Calculator</h3>
+    <div class="calc">
+
+        <input type="number" placeholder="Enter the Num" id="n1">
+        <p></p>
+        <button onclick="by_add()" id="btn" type="button">Add</button>
+        <button onclick="by_sub()" id="btn" type="button">Subract</button>
+        <button onclick="by_mul()" id="btn" type="button">Multiply</button>
+        <button onclick="by_div()" id="btn" type="button">Division</button>
+        <div class="res">
+            <button onclick="by_equals()" id="btn1" type="button">=</button><br><br>
+        </div>
+        <input type="text" placeholder="Result" id="res">
+        <p></p>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
